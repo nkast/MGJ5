@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MGJ5", "MGJ5", "{D17F1F26-B69B-473B-9261-6B2AD3AE0FF1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MGJ5.Shared", "MGJ5.Shared\MGJ5.Shared.shproj", "{5BE9A96F-9587-43AB-A0E7-F50351D01883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGJ5.Android", "MGJ5.Android\MGJ5.Android.csproj", "{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGJ5.WindowsDX", "MGJ5.WindowsDX\MGJ5.WindowsDX.csproj", "{99E73179-97D7-40B5-9EF3-B7B3CBA9CA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGJ5.DesktopGL", "MGJ5.DesktopGL\MGJ5.DesktopGL.csproj", "{CA908242-B0EE-4A9E-BAB2-75EDA55B6870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGJ5.BlazorGL", "MGJ5.BlazorGL\MGJ5.BlazorGL.csproj", "{94814C76-01F9-44D3-9EBF-7F08A9B5BACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{99E73179-97D7-40B5-9EF3-B7B3CBA9CA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E73179-97D7-40B5-9EF3-B7B3CBA9CA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E73179-97D7-40B5-9EF3-B7B3CBA9CA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E73179-97D7-40B5-9EF3-B7B3CBA9CA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA908242-B0EE-4A9E-BAB2-75EDA55B6870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA908242-B0EE-4A9E-BAB2-75EDA55B6870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA908242-B0EE-4A9E-BAB2-75EDA55B6870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA908242-B0EE-4A9E-BAB2-75EDA55B6870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94814C76-01F9-44D3-9EBF-7F08A9B5BACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94814C76-01F9-44D3-9EBF-7F08A9B5BACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94814C76-01F9-44D3-9EBF-7F08A9B5BACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94814C76-01F9-44D3-9EBF-7F08A9B5BACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BE9A96F-9587-43AB-A0E7-F50351D01883} = {D17F1F26-B69B-473B-9261-6B2AD3AE0FF1}
+		{80098DE6-2E8F-4FE8-9BC6-5FA4FAD71421} = {D17F1F26-B69B-473B-9261-6B2AD3AE0FF1}
+		{99E73179-97D7-40B5-9EF3-B7B3CBA9CA4E} = {D17F1F26-B69B-473B-9261-6B2AD3AE0FF1}
+		{CA908242-B0EE-4A9E-BAB2-75EDA55B6870} = {D17F1F26-B69B-473B-9261-6B2AD3AE0FF1}
+		{94814C76-01F9-44D3-9EBF-7F08A9B5BACB} = {D17F1F26-B69B-473B-9261-6B2AD3AE0FF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B2F2EA-D609-43F8-8A4A-6A68E0815C6A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MGJ5.Shared\MGJ5.Shared.projitems*{5be9a96f-9587-43ab-a0e7-f50351d01883}*SharedItemsImports = 13
+		MGJ5.Shared\MGJ5.Shared.projitems*{80098de6-2e8f-4fe8-9bc6-5fa4fad71421}*SharedItemsImports = 5
+		MGJ5.Shared\MGJ5.Shared.projitems*{94814c76-01f9-44d3-9ebf-7f08a9b5bacb}*SharedItemsImports = 5
+		MGJ5.Shared\MGJ5.Shared.projitems*{99e73179-97d7-40b5-9ef3-b7b3cba9ca4e}*SharedItemsImports = 5
+		MGJ5.Shared\MGJ5.Shared.projitems*{ca908242-b0ee-4a9e-bab2-75eda55b6870}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
